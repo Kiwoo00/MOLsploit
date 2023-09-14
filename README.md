@@ -1,12 +1,12 @@
 # MOLsploit
 Metasploit Outside Lan
 
-MOLsploit is a bash script that allows you to use Metasploit outside the LAN using Localtunnel. It checks if Metasploit and Localtunnel are installed and prompts the user for requirements. It then creates a payload with the Localtunnel hostname and port as the LHOST and LPORT respectively, and starts Metasploit with a listener.
+MOLsploit is a bash script that allows you to use Metasploit outside the LAN using Localtunnel (alternative NGrok). It checks if Metasploit and Localtunnel are installed and prompts the user for requirements. It then creates a payload with the Localtunnel hostname and port as the LHOST and LPORT respectively, and starts Metasploit with a listener.
 
 ## Requirements
 
 - Metasploit Framework
-- Localtunnel
+- Localtunnel (alternative ngrok)
 - Bash
 - Node.js (for Localtunnel)
 
